@@ -1,0 +1,11 @@
+  #Hodoscope reconstruction
+
+  module hodoscopeReco = EcalTBHodoscopeRecInfoProducer
+  {
+     string rawInfoProducer   = "Ecal2004TBSource"
+     string rawInfoCollection = ""
+     string recInfoCollection  = "EcalTBHodoscopeRecInfo"
+     int32 fitMethod = 0
+     vdouble planeShift = { 0.0, 0.0, 0.4633, 0.1000 }
+     vdouble zPosition = { -3251.0, -2881.0, -751.0, -381.0 }
+  } 	
